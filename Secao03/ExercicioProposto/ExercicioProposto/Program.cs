@@ -19,12 +19,12 @@ namespace ExercicioProposto // Note: actual namespace depends on the project nam
             int age = int.Parse(vet[1]);
             double height = double.Parse(vet[2], CultureInfo.InvariantCulture);
 
-            Console.WriteLine(fullName);
-            Console.WriteLine(quartos);
-            Console.WriteLine(preco.ToString("F2", CultureInfo.InvariantCulture));
-            Console.WriteLine(lastName);
-            Console.WriteLine(age);
-            Console.WriteLine(height.ToString("F2"), CultureInfo.InvariantCulture);
+            Console.WriteLine("Seu nome completo é : " + fullName);
+            Console.WriteLine("Sua casa tem: " + quartos + " quartos");
+            Console.WriteLine("O preço do produto é: "+ preco.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Seu ultimo nome é: " + lastName);
+            Console.WriteLine("Sua idade é: " + age);
+            Console.WriteLine("Sua altura é: " + height.ToString("F2"), CultureInfo.InvariantCulture);
 
         }
     }
