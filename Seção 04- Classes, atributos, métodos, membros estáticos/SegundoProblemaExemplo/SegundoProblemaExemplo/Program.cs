@@ -21,7 +21,7 @@ namespace SegundoProblemaExemplo // Note: actual namespace depends on the projec
             Console.WriteLine("Dados do produto: " + p);
 
             Console.WriteLine();
-            Console.Write("Digite o número de produtos a ser adiiconado ao estoque: ");
+            Console.Write("Digite o número de produtos a ser adiconado ao estoque: ");
             int qte = int.Parse(Console.ReadLine());
             p.AdicionarProdutos(qte);
 

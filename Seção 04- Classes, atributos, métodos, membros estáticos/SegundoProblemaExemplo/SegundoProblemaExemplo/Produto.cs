@@ -30,7 +30,7 @@ namespace SegundoProblemaExemplo
                 + Preco.ToString("F2",CultureInfo.InvariantCulture)
                 + ", "
                 + Quantidade
-                + "unidades, Total: $ "
+                + " unidades, Total: $ "
                 + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
